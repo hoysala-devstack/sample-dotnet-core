@@ -51,7 +51,7 @@ spec:
               cpu: "100m"
               memory: "256Mi"
       imagePullSecrets:
-      - name: myaccess
+      - name: myaccess1
 ---   
 
 apiVersion: v1
