@@ -42,7 +42,7 @@ spec:
         image: acrdevopspoc.azurecr.io/cognizantdevops:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 80
+        - containerPort: 5000
         resources:
             requests:
               cpu: "50m"
@@ -67,4 +67,4 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: CTS
+    app: cts
