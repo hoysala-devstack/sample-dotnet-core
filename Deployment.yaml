@@ -63,7 +63,6 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 83
     protocol: TCP
     targetPort: 80
   selector:
