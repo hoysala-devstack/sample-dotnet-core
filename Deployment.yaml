@@ -42,7 +42,7 @@ spec:
         image: acrdevopspoc.azurecr.io/cognizantdevops:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 5000
+        - containerPort: 80
         resources:
             requests:
               cpu: "50m"
@@ -63,7 +63,7 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-  - port: 80
+  - port: 85
     protocol: TCP
     targetPort: 80
   selector:
