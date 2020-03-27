@@ -29,6 +29,8 @@ spec:
       labels:
         app: cts
     spec:
+      nodeSelector:
+        os: windows
       containers:
       - name: myaccesscontainer
         image: acrdevopspoc.azurecr.io/cognizantdevops:latest
