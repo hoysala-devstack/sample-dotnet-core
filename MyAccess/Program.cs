@@ -17,7 +17,7 @@ namespace MyAccess
         }
         public void EmptyMethod()
         {
-          
+          //Test PR
         }
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
