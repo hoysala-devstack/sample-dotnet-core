@@ -25,12 +25,6 @@ namespace MyAccess
         {
 
         }
-
-        public void EmptyMethod3()
-        {
-
-        }
-
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
